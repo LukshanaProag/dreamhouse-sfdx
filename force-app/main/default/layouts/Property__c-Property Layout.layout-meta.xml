@@ -47,6 +47,10 @@
                 <behavior>Edit</behavior>
                 <field>Asking_Price__c</field>
             </layoutItems>
+            <layoutItems>
+                <behavior>Edit</behavior>
+                <field>test__c</field>
+            </layoutItems>
         </layoutColumns>
         <layoutColumns>
             <layoutItems>
@@ -149,11 +153,6 @@
             <sortOrder>11</sortOrder>
         </platformActionListItems>
         <platformActionListItems>
-            <actionName>Delete</actionName>
-            <actionType>StandardButton</actionType>
-            <sortOrder>12</sortOrder>
-        </platformActionListItems>
-        <platformActionListItems>
             <actionName>ChangeOwnerOne</actionName>
             <actionType>StandardButton</actionType>
             <sortOrder>13</sortOrder>
@@ -172,6 +171,11 @@
             <actionName>Clone</actionName>
             <actionType>StandardButton</actionType>
             <sortOrder>16</sortOrder>
+        </platformActionListItems>
+        <platformActionListItems>
+            <actionName>Delete</actionName>
+            <actionType>StandardButton</actionType>
+            <sortOrder>12</sortOrder>
         </platformActionListItems>
     </platformActionList>
     <relatedLists>
